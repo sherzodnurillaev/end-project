@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Добавьте новые товары к существующим, напишите фильтрацию по цене</h1>
+
+            <button class="newProduct">Добавить новый товары</button>
+
+            <form name="prod">
+                <div class="inp">
+                    <span>Товары от:</span>
+                    <input type="text" class="ot" placeholder="$100">
+                </div>
+                <div class="inp">
+                    <span>Товары до:</span>
+                    <input type="text" class="doo" placeholder="$500">
+                </div>
+
+                <button type="submit">Показать</button>
+            </form>
+        </header>
+
+        <div class="main">
+            <form name="modal">
+                <div class="modal_inp">
+                    <span>Название товара</span>
+                    <input type="text" name="title">
+                    <span>Цена товара</span>
+                    <input type="text" name="price">
+
+                    <button type="submit" class="next">Добавить</button>
+                    <button type="reset" class="exit">Назад</button>
+                </div>
+            </form>
+        </div>
+
+        <section>
+            <!-- <div class="box">
+                <h1>Йогурт</h1>
+                <span>$25</span>
+                <p>0</p>
+            </div> -->
+        </section>
+    </div>
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>
